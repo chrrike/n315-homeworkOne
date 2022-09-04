@@ -1,0 +1,44 @@
+home-content {
+  .intro-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background-color: whitesmoke;
+    text-align: center;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    .title {
+      margin-top: 10px;
+      font-size: 30px;
+      margin-bottom: 30px;
+    }
+    .body {
+      font-size: 20px;
+      margin-bottom: 20px;
+      width: 80%;
+    }
+  }
+
+  .home-gallery {
+    width: 100%;
+    height: 350px;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    .photos {
+      width: 80%;
+      height: 90%;
+      //background-color: orange;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+
+      img {
+        width: 33%;
+      }
+    }
+  }
+}

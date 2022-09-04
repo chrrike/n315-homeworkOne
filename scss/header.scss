@@ -1,0 +1,24 @@
+header {
+  background-image: url(../images/hero.webp);
+  width: 100%;
+  height: 500px;
+  background-position: center;
+  text-align: center;
+  display: flex;
+  position: relative;
+  align-items: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  h3 {
+    font-size: 35px;
+    align-self: center;
+    position: absolute;
+    color: whitesmoke;
+    padding-left: 45%;
+  }
+  h2 {
+    padding-top: 90px;
+    color: whitesmoke;
+    padding-left: 38%;
+  }
+}
